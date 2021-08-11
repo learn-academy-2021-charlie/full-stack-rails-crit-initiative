@@ -22,3 +22,9 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+```
+$ rails db:migrate
+$ rails c
+> Blog.create title: 'test2', content: 'testing 123'
+```
