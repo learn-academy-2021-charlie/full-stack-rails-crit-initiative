@@ -1,0 +1,13 @@
+<h1> test page for new posts </h1>
+
+<%= form_with model: @blog_post, local:true do |form|%>
+    <p> Title <p>
+    <%= form.text_field :title %>
+    <p> Content <p>
+    <%= form.text_area :content %>
+    
+    <%= form.submit %> 
+
+  <% end %>
+
+<%= link_to 'Home', blogs_path%>

@@ -27,4 +27,7 @@ Things you may want to cover:
 $ rails db:migrate
 $ rails c
 > Blog.create title: 'test2', content: 'testing 123'
+> Blog.create title: 'Typical day at learn', content: 'alot of brain'
 ```
+||As a user, I see a form where I can create a new blog post.||
+
